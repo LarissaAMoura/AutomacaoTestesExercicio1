@@ -4,8 +4,8 @@ public class Testes {
 	   public static void main( String[] args )
 	    {
 	        System.out.println( "Hello World!" );
-	        Cliente ana =new Cliente("Ana Leopoudina da Silva",000000);
-	    	Cliente joao =new Cliente("João da silva sauro", 11111111);
+	        Cliente ana =new Cliente("Ana Leopoudina da Silva",0102);
+	    	Cliente joao =new Cliente("João da silva sauro", 1111);
 	    	CartaoDeCredito hiper =new CartaoDeCredito(1234 ,0622,ana);
 	    	CartaoDeCredito nu =new CartaoDeCredito(4321,0622,joao);
 	        
