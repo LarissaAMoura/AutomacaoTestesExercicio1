@@ -5,8 +5,8 @@ package br.com.acc.lpoo;
  *
  */
 public class Cliente {
-	public String Nome;
-	int Codigo;
+	private String Nome;
+	private int Codigo;
 	
 	public Cliente(String Nome, int Codigo) {
 		this.Nome = Nome;
